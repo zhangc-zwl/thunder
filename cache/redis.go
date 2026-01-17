@@ -3,7 +3,7 @@ package cache
 import (
 	"context"
 	"errors"
-	"github.com/mszlu521/thunder/database"
+	"github.com/zhangc-zwl/thunder/database"
 	"github.com/redis/go-redis/v9"
 	"time"
 )

@@ -2,7 +2,7 @@ package db
 
 import (
 	"context"
-	"github.com/mszlu521/thunder/config"
+	"github.com/zhangc-zwl/thunder/config"
 	"github.com/redis/go-redis/v9"
 	"time"
 )

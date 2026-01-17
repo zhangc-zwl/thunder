@@ -6,12 +6,12 @@ import (
 	"fmt"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/cache"
-	"github.com/mszlu521/thunder/config"
-	"github.com/mszlu521/thunder/logs"
-	"github.com/mszlu521/thunder/res"
-	"github.com/mszlu521/thunder/tools/crypro"
-	"github.com/mszlu521/thunder/tools/gptr"
+	"github.com/zhangc-zwl/thunder/cache"
+	"github.com/zhangc-zwl/thunder/config"
+	"github.com/zhangc-zwl/thunder/logs"
+	"github.com/zhangc-zwl/thunder/res"
+	"github.com/zhangc-zwl/thunder/tools/crypro"
+	"github.com/zhangc-zwl/thunder/tools/gptr"
 
 	"io"
 	"net/http"

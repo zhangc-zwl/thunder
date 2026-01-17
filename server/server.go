@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/config"
-	"github.com/mszlu521/thunder/event"
-	"github.com/mszlu521/thunder/pay/wxPay"
+	"github.com/zhangc-zwl/thunder/config"
+	"github.com/zhangc-zwl/thunder/event"
+	"github.com/zhangc-zwl/thunder/pay/wxPay"
 )
 
 // Server 是我们应用的核心结构体

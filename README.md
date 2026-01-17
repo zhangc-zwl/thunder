@@ -1,7 +1,7 @@
 # Thunder
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/mszlu521/thunder)](https://goreportcard.com/report/github.com/mszlu521/thunder)
-[![GoDoc](https://pkg.go.dev/badge/github.com/mszlu521/thunder)](https://pkg.go.dev/github.com/mszlu521/thunder)
+[![Go Report Card](https://goreportcard.com/badge/github.com/zhangc-zwl/thunder)](https://goreportcard.com/report/github.com/zhangc-zwl/thunder)
+[![GoDoc](https://pkg.go.dev/badge/github.com/zhangc-zwl/thunder)](https://pkg.go.dev/github.com/zhangc-zwl/thunder)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Thunder is a fast and lightweight web framework built on top of Gin, designed to accelerate Go web application development. It provides out-of-the-box solutions for common requirements like authentication, cloud storage, database access, payment integration, and more.
@@ -23,7 +23,7 @@ Thunder is a fast and lightweight web framework built on top of Gin, designed to
 ## Installation
 
 ```bash
-go get github.com/mszlu521/thunder
+go get github.com/zhangc-zwl/thunder
 ```
 
 ## Quick Start
@@ -32,8 +32,8 @@ go get github.com/mszlu521/thunder
 package main
 
 import (
-    "github.com/mszlu521/thunder/config"
-    "github.com/mszlu521/thunder/server"
+    "github.com/zhangc-zwl/thunder/config"
+    "github.com/zhangc-zwl/thunder/server"
 )
 
 func main() {
@@ -129,7 +129,7 @@ pay:
 ### Qiniu Cloud
 
 ```go
-import "github.com/mszlu521/thunder/upload"
+import "github.com/zhangc-zwl/thunder/upload"
 
 // Initialize Qiniu upload manager
 qiniuManager, err := upload.InitQiniuUpload("region-id", "bucket", "access-key", "secret-key")
@@ -150,7 +150,7 @@ url := qiniuManager.GetPublicURL("your-domain.com", "path/to/file")
 ### Alibaba Cloud OSS
 
 ```go
-import "github.com/mszlu521/thunder/upload"
+import "github.com/zhangc-zwl/thunder/upload"
 
 // Initialize Alibaba Cloud OSS upload manager
 ossManager, err := upload.InitAliyunOSSUpload("access-key-id", "access-key-secret", "endpoint", "bucket-name")
@@ -179,7 +179,7 @@ signedURL, err := ossManager.GetSignedURL("path/to/file", 3600)
 Thunder provides JWT-based authentication middleware:
 
 ```go
-import "github.com/mszlu521/thunder/tools/jwt"
+import "github.com/zhangc-zwl/thunder/tools/jwt"
 
 // Generate token
 token, err := jwt.GenToken("user-id", "username", 24*time.Hour)
@@ -211,7 +211,7 @@ auth:
 Thunder integrates with WeChat Pay for various payment scenarios:
 
 ```go
-import "github.com/mszlu521/thunder/pay/wxPay"
+import "github.com/zhangc-zwl/thunder/pay/wxPay"
 
 // Native payment
 payBody := &wxPay.PayBody{
@@ -245,7 +245,7 @@ if err != nil {
 Thunder includes a simple event system for decoupling components:
 
 ```go
-import "github.com/mszlu521/thunder/event"
+import "github.com/zhangc-zwl/thunder/event"
 
 // Register event handler
 event.Register("user.registered", func(e event.Event) (any, error) {
@@ -268,8 +268,8 @@ Thunder uses GORM for database operations with PostgreSQL and MySQL support:
 
 ```go
 import (
-    "github.com/mszlu521/thunder/database"
-    "github.com/mszlu521/thunder/config"
+    "github.com/zhangc-zwl/thunder/database"
+    "github.com/zhangc-zwl/thunder/config"
 )
 
 // Initialize PostgreSQL

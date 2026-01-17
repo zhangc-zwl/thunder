@@ -1,8 +1,8 @@
 package database
 
 import (
-	"github.com/mszlu521/thunder/config"
-	"github.com/mszlu521/thunder/db"
+	"github.com/zhangc-zwl/thunder/config"
+	"github.com/zhangc-zwl/thunder/db"
 )
 
 var (

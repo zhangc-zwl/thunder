@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/config"
+	"github.com/zhangc-zwl/thunder/config"
 )
 
 func Cors(conf *config.Server) gin.HandlerFunc {

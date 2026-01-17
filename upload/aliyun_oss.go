@@ -8,7 +8,7 @@ import (
 	"strings"
 
 	"github.com/aliyun/aliyun-oss-go-sdk/oss"
-	"github.com/mszlu521/thunder/logs"
+	"github.com/zhangc-zwl/thunder/logs"
 )
 
 

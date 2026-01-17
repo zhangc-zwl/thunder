@@ -3,7 +3,7 @@ package res
 import (
 	"errors"
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/errs"
+	"github.com/zhangc-zwl/thunder/errs"
 	"net/http"
 )
 

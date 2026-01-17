@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/config"
-	"github.com/mszlu521/thunder/tools/jwt"
+	"github.com/zhangc-zwl/thunder/config"
+	"github.com/zhangc-zwl/thunder/tools/jwt"
 )
 
 func Auth(authConf *config.Auth) gin.HandlerFunc {

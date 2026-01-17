@@ -1,6 +1,6 @@
 package event
 
-import "github.com/mszlu521/thunder/errs"
+import "github.com/zhangc-zwl/thunder/errs"
 
 type Event struct {
 	Name string

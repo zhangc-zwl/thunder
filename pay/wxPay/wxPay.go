@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-pay/gopay"
 	"github.com/go-pay/gopay/wechat/v3"
-	"github.com/mszlu521/thunder/config"
+	"github.com/zhangc-zwl/thunder/config"
 )
 
 var instance *WxPay

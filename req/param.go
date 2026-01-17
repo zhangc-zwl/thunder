@@ -5,9 +5,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
-	"github.com/mszlu521/thunder/errs"
-	"github.com/mszlu521/thunder/logs"
-	"github.com/mszlu521/thunder/res"
+	"github.com/zhangc-zwl/thunder/errs"
+	"github.com/zhangc-zwl/thunder/logs"
+	"github.com/zhangc-zwl/thunder/res"
 )
 
 func JsonParam(c *gin.Context, obj any) error {

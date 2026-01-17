@@ -2,9 +2,9 @@ package wx
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/req"
-	"github.com/mszlu521/thunder/res"
-	"github.com/mszlu521/thunder/tools/crypro"
+	"github.com/zhangc-zwl/thunder/req"
+	"github.com/zhangc-zwl/thunder/res"
+	"github.com/zhangc-zwl/thunder/tools/crypro"
 	"sort"
 	"strings"
 )

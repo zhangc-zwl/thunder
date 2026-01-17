@@ -2,8 +2,8 @@ package server
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/mszlu521/thunder/config"
-	"github.com/mszlu521/thunder/midd"
+	"github.com/zhangc-zwl/thunder/config"
+	"github.com/zhangc-zwl/thunder/midd"
 )
 
 // IRouter 定义路由注册接口
